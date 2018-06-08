@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/vt_insertData"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="添加数据"
+        android:gravity="center"
+        android:textSize="36sp"/>
+
+    <TextView
+        android:id="@+id/vt_updateData"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="修改数据"
+        android:gravity="center"
+        android:textSize="36sp"/>
+
+    <TextView
+        android:id="@+id/vt_deleteData"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="删除数据"
+        android:gravity="center"
+        android:textSize="36sp"/>
+
+    <TextView
+        android:id="@+id/vt_selectData"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="查询数据数据"
+        android:gravity="center"
+        android:textSize="36sp"/>
+</LinearLayout>
